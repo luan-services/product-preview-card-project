@@ -5,7 +5,7 @@ import CartBtn from './CartBtn';
 const BlogPreviewCard = (props) => {
     return (
         <div className="bg-white flex flex-col md:flex-row rounded-lg">
-            <div className="flex w-84 h-60 md:h-108 md:w-70 overflow-hidden md:overflow-visible">
+            <div className="flex w-84 h-60 md:h-112 md:w-70 overflow-hidden md:overflow-visible">
                 <img className="object-cover rounded-t-lg md:rounded-none object-center w-84 md:w-70 md:h-full" src={props.imgSrcDesktop} alt="Product Image" />
             </div>
         
