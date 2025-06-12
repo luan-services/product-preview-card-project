@@ -3,7 +3,7 @@ import { products } from '../objects/products'
 
 const CardContainer = () => {
     return (
-        <div className="container w-full min-h-screen flex flex-wrap justify-center items-center mx-auto gap-6 py-10 px-4 sm:px-6 md:px-8 lg:px-10">
+        <div className="container w-full min-h-screen flex flex-wrap justify-center items-center gap-6 py-6 md:py-10 px-4 md:px-10">
 
             {products.map((props, index) => {
                 return (
